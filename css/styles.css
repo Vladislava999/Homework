@@ -206,6 +206,15 @@ button {
   display: flex;
   justify-content: space-between;
 }
+.feature {
+  width: 264px;
+  height: 112px;
+  border-radius: 4px;
+  background: var(--cloud, #f4f4fd);
+  margin-bottom: 8px;
+  display: flex;
+  justify-content: center;
+}
 
 /*============ Wat are we doing ============*/
 .pages {
@@ -286,6 +295,78 @@ button {
   padding-bottom: 32px;
   padding-left: 16px;
   padding-right: 16px;
+}
+.desc-team {
+  color: var(--slate, #434455);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  margin-bottom: 8px;
+}
+/*========Social=======*/
+.social {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+.social-item {
+}
+
+.social-link {
+  display: block;
+  width: 40px;
+  height: 40px;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+}
+.social-icon {
+  fill: #f4f4fd;
+}
+.social-link:hover {
+  background-color: #404bbf;
+}
+
+/*--------Customers-------*/
+.main-customers {
+  color: var(--navyblue, #2e2f42);
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+  margin-top: 120px;
+  margin-bottom: 72px;
+}
+.customers-bloc {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-right: 24px;
+}
+.customers {
+  width: 1440px;
+  background: #fff;
+  padding-right: 156px;
+  padding-left: 156px;
+}
+.customers-bloc {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+.customers-iteam {
+  display: inline-block;
+}
+.customers-icon {
+  border-radius: 4px;
+  border: 1px solid var(--lightslate, #8e8f99);
+  padding-bottom: 16px;
+  padding-top: 16px;
+  padding-right: 32px;
+  padding-left: 32px;
 }
 /*=========Footer========*/
 .logotipe {
