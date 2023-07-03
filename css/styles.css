@@ -17,6 +17,8 @@
   --background-team: #f4f4fd;
   --background-footer: #2e2f42;
   --background-bottom: #4d5ae5;
+  --maine-gradient: linear-gradient
+    (rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7));
 }
 
 .list {
@@ -137,6 +139,12 @@ span.ingredient-header {
   justify-content: center;
   padding-top: 188px;
   padding-bottom: 188px;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/Ofice.jpg);
+  background-size: cover;
 }
 .title-hero {
   color: var(--title, #fff);
@@ -212,6 +220,7 @@ button {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  margin-right: 24px;
 }
 .main-title-doing {
   color: var(--main-title, #2e2f42);
@@ -266,6 +275,9 @@ button {
   padding-top: 32px;
   padding-bottom: 32px;
   text-align: center;
+}
+.team-card {
+  background-color: #ffffff;
 }
 .team-name {
   margin-bottom: 8px;
