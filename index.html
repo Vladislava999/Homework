@@ -47,9 +47,15 @@
       <div class="container">
         <h1 class="title-hero">Effective Solutions for Your Business</h1>
 
-        <button type="button" class="button-hero">Order Service</button>
-      </div>
+        <button class="button-hero" type="button" data-modal-open>Order Service</button>
 
+      </div>
+      <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
+          <button type="button" data-modal-close>Close</button>
+        </div>
+      </div>
+      <script src="./js/modal.js"></script>
     </section>
 
 
@@ -466,6 +472,8 @@
       </ul>
     </div>
   </footer>
+
+
 </body>
 
 </html>
