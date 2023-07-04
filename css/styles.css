@@ -19,6 +19,8 @@
   --background-bottom: #4d5ae5;
   --maine-gradient: linear-gradient
     (rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7));
+  --background-media: #31d0aa;
+  --icon: #404bbf;
 }
 
 .list {
@@ -362,11 +364,16 @@ button {
 }
 .customers-icon {
   border-radius: 4px;
+  fill: #8e8f99;
   border: 1px solid var(--lightslate, #8e8f99);
   padding-bottom: 16px;
   padding-top: 16px;
   padding-right: 32px;
   padding-left: 32px;
+}
+.customers-iteam:hover .customers-icon,
+customers-iteam:focus .customers-icon {
+  fill: var(--icon, #404bbf);
 }
 /*=========Footer========*/
 .logotipe {
@@ -408,4 +415,33 @@ span.ingredient {
 }
 .footer-div {
   margin: auto;
+}
+
+.main-social-media {
+  color: var(--white, #fff);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+.social-media {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+.social-media-item {
+}
+
+.social-media-link {
+  display: block;
+  width: 40px;
+  height: 40px;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+}
+.social-media-icon {
+  fill: #f4f4fd;
+}
+.social-media-link:hover {
+  background-color: var(--background-media, #31d0aa);
 }
