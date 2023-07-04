@@ -21,6 +21,7 @@
     (rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7));
   --background-media: #31d0aa;
   --icon: #404bbf;
+  --customers-link: #8e8f99;
 }
 
 .list {
@@ -350,7 +351,7 @@ button {
 }
 
 /*--------Customers-------*/
-.customers-div {
+.customers {
   padding-top: 120px;
   padding-bottom: 120px;
 }
@@ -363,6 +364,14 @@ button {
   letter-spacing: 0.72px;
   text-transform: capitalize;
   margin-bottom: 72px;
+}
+.customers-link {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #8e8f99;
+  align-items: center;
+  justify-content: center;
+  color: var (--customers-link, #8e8f99);
 }
 .customers-bloc {
   display: flex;
@@ -387,16 +396,11 @@ button {
   height: 88px;
 }
 .customers-icon {
-  border-radius: 4px;
-  fill: #8e8f99;
-  border: 1px solid var(--lightslate, #8e8f99);
-  padding-bottom: 16px;
-  padding-top: 16px;
-  padding-right: 32px;
-  padding-left: 32px;
+  color: #8e8f99;
+  fill: currentColor;
 }
-.customers-iteam:hover .customers-icon,
-customers-iteam:focus .customers-icon {
+.customers-link:hover .customers-icon,
+customers-link:focus .customers-icon {
   fill: var(--icon, #404bbf);
 }
 /*=========Footer========*/
