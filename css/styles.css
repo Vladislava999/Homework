@@ -350,6 +350,10 @@ button {
 }
 
 /*--------Customers-------*/
+.customers-div {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
 .main-customers {
   color: var(--navyblue, #2e2f42);
   text-align: center;
@@ -358,7 +362,6 @@ button {
   line-height: 1.11;
   letter-spacing: 0.72px;
   text-transform: capitalize;
-  margin-top: 120px;
   margin-bottom: 72px;
 }
 .customers-bloc {
@@ -379,7 +382,9 @@ button {
   gap: 24px;
 }
 .customers-iteam {
+  width: calc((100% - 120px) / 6);
   display: inline-block;
+  height: 88px;
 }
 .customers-icon {
   border-radius: 4px;
